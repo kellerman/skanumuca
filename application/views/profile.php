@@ -1,0 +1,13 @@
+<?php
+    $this->load->view("shared/header");
+?>
+<?php
+    $this->load->view("shared/footer_tags");
+?>
+<?php
+    $this->load->view("shared/menu/profile");
+?>
+<h1>Skaņumuca</h1>
+<?php
+    $this->load->view("shared/footer");
+?>

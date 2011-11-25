@@ -1,0 +1,9 @@
+@charset "utf-8";
+body {
+		padding-top:100px;
+		background-color: #fff;
+		background:url("../img/main_logo.png") center no-repeat;
+		margin: 40px;
+		font: 13px/20px normal Helvetica, Arial, sans-serif;
+		color: #4F5155;
+	}
