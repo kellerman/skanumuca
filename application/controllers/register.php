@@ -7,10 +7,8 @@ class Register extends MY_Controller {
 	}
         function register_validate()
 	{
-
 		//$this->load->view('home');
                 header( 'Location: /skanumuca/home' );
-            
 	}
 }
 ?>
