@@ -4,6 +4,7 @@ class Home extends MY_Controller {
 	{
 		if(!empty($_COOKIE['login']))$this->load->view('home');
 		else echo "Nav logins";
+                
 	}
 }
 ?>

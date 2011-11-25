@@ -17,5 +17,11 @@ class profile extends MY_Controller {
 	{
 
 	} 
+ 	public function logout()
+	{               
+          		setcookie("login","d",time()-36000,"/");
+                        header("Location: /skanumuca");
+		
+	}         
 }
 ?>

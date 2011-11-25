@@ -19,7 +19,7 @@ text-align: center;
 </head>
 <body>
 <div>
-<form id='login' action='login/login_validate' method='post' accept-charset='UTF-8'>
+<form id='login' action='login/validate' method='post' accept-charset='UTF-8'>
 <input type='hidden' name='submitted' id='submitted' value='1'/>
 <label for='username' >Lietotājs:</label></br>
 <input type='text' name='username' id='username'  maxlength="50" /></br>
